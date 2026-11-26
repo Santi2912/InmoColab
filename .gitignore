@@ -1,0 +1,15 @@
+# Compilación
+target/
+dist/
+*.class
+*.war
+
+# NetBeans / IDE
+nbproject/private/
+nb-configuration.xml
+.idea/
+.vscode/
+
+# Temporales
+*.log
+~$*

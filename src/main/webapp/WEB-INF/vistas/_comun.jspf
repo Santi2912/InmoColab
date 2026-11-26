@@ -1,0 +1,9 @@
+<%@page import="com.inmocolab.comun.*,com.inmocolab.usuarios.modelo.*,java.util.*,java.math.BigDecimal"%><%!
+    private static String h(Object o) {
+        return Util.h(o);
+    }
+%><%
+    final String ctx = request.getContextPath();
+    final Usuario yo = Sesion.actual(request);
+    final Contexto cx = Contexto.get();
+%>
